@@ -1,0 +1,23 @@
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.05fr 1fr 0.5fr;
+  grid-template-rows: 100vh;
+  grid-column-gap: 12px;
+  grid-row-gap: 0px;
+  height: 100vh;
+}
+.left_nav {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.search_main-container {
+  grid-area: 1 / 2 / 2 / 3;
+  overflow-y: auto;
+  padding: 20px 48px;
+}
+
+.search_map {
+  grid-area: 1 / 3 / 2 / 4;
+  width: 100%;
+  height: 100%;
+}
